@@ -1,0 +1,267 @@
+
+/*Big tablets to 1200  1024-1200*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+    width: 100%;
+    padding: 0 2%;
+    
+    }
+
+    .hero-text-button{
+        width: 100%;
+    padding: 0 2%;
+    }
+
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/*Small tablets to big tablets tablets 768-1023*/
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+
+    .section-features,
+    .section-meals,
+    .section-steps,
+    .section-cities,
+    .section-reviews,
+    .section-menu,
+    .section-form{
+        padding: 60px 0;
+    }
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .menu-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .menu-info{
+        padding: 0 5px;
+        font-size: 100%;
+    }
+
+    .menu-info ul li{
+        padding: 1px 0;
+    }
+
+    .menu-price{
+        padding: 2px;
+    }
+
+    .icon-small{
+        margin-right: 5px;
+    }
+
+    .steps-box{
+        margin-top: 10px;
+    }
+
+    .steps-box:last-child{
+        margin-top: 10px;
+    }
+
+    .works-step{
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .app-screen{
+        width: 50%;
+    }
+
+    .main-form-contact{
+        width: 80%;
+    }
+    .main-nav li{
+        margin-left: 25px;
+    }
+}
+
+/*Small phones to small tablets 481-767*/
+@media only screen and (max-width:790px){
+    body{
+        font-size: 16px;
+    }
+    .section-features,
+    .section-meals,
+    .section-steps,
+    .section-cities,
+    .section-reviews,
+    .section-menu,
+    .section-form{
+        padding: 30px 0;
+    }
+
+    .row,.hero-text-box{
+        padding: 0 4%;
+
+    }
+
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    footer div{
+        text-align: center;
+        
+    }
+
+    .social-links{
+        width: 100%;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .main-nav{
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+
+    .main-nav li{
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: none;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky-nav{
+    z-index: 5;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.98);
+    box-shadow: 0 2px 2px rgb(17, 17, 17);
+}
+
+    .sticky-nav .main-nav li a:link,
+    .sticky-nav .main-nav li a:visited{
+        padding: 10px 0;
+    }
+
+    .sticky-nav .main-nav{
+        margin-top: 10px;
+    }
+
+    .sticky-nav .mobile-nav-icon{
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+
+    h1{
+        font-size: 180%;
+    }
+
+    h2{
+        font-size: 150%;
+    }
+
+    .long-copy{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .steps-box:first-child{
+        text-align: center;
+        padding: 0;
+    }
+
+    .works-step{
+        margin-bottom: 20px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 20px;
+    }
+
+    .works-step div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;    
+    }
+
+    .btn-app {
+        text-align: center;
+        display: block;
+        
+    }
+    .app-screen{
+        width: 40%;
+    }
+
+    .footer-logo{
+        margin-bottom: 15px;
+    }
+
+    .main-form-contact{
+        width: 80%;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+    
+    .form-messages{
+        width: 100%;
+        margin-left: 0;
+    
+    }
+    
+
+}
+
+/*Small phones 0-480*/
+@media only screen and (max-width:480px){
+    
+    .section-features,
+    .section-meals,
+    .section-steps,
+    .section-cities,
+    .section-reviews,
+    .section-menu,
+    .section-form{
+        padding: 25px 0;
+    }
+
+    .main-form-contact{
+        width: 90%;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+    .footer-logo{
+        margin-bottom: 10px;
+    }
+
+    .form-messages{
+        width: 100%;
+        margin-left: 0;
+    
+    }
+
+}
